@@ -1,0 +1,4 @@
+1. 在主机A上运行remoteDebugger.sh脚本
+2. 在主机A上访问localhost:8080/client/#anonymous
+3. 在手机B上设置代理，服务器为A的IP地址，端口为8001
+4. 在手机B浏览器上访问http网页（现不支持对https的处理），即可在主机A上进行debug
